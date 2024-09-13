@@ -8,7 +8,11 @@ from funciones_utn import (
 from validaciones import (
     validar_opcion
 )
-
+from funciones_utn import (
+    utn_mostrar_nombres_heroes,
+    utn_mostrar_identidades_heroes,
+    utn_mostrar_heroe_mayor_altura
+)
 
 def utn_heroes_app(lista_nombres, lista_identidades, lista_alturas, lista_poderes, lista_generos):
 
@@ -18,11 +22,11 @@ def utn_heroes_app(lista_nombres, lista_identidades, lista_alturas, lista_podere
         play_sound()
         match opcion:
             case 1:
-                pass
+                utn_mostrar_nombres_heroes(lista_nombres)
             case 2:
-                pass
+                utn_mostrar_identidades_heroes(lista_identidades)    
             case 3:
-                pass
+                utn_mostrar_heroe_mayor_altura(lista_alturas, lista_nombres)
             case 4:
                 pass
             case 5:

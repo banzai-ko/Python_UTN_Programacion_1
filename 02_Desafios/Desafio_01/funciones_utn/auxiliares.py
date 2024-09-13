@@ -16,7 +16,6 @@
 import pygame.mixer as mixer
 import time
 
-
 def limpiar_pantalla():
     """
     The function `limpiar_pantalla` clears the console screen and waits for user input to continue.
