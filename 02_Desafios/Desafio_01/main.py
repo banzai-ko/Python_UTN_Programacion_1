@@ -6,7 +6,7 @@ if __name__ == "__main__":
     lista_nombres_heroes,
     lista_identidades_heroes,
     lista_alturas_heroes,
-    lista_generos_heroes,
     lista_poder_heroes,
+    lista_generos_heroes,
   )
 
